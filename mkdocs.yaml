@@ -1,0 +1,8 @@
+site_name: Home Server
+nav:
+  - Home: index.md
+  - Base Image Building: base_image_building.md
+  - Development Setup: development_setup.md
+  - Production Deployment: production_deployment.md
+  - About: about.md
+theme: readthedocs
