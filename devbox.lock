@@ -1,0 +1,114 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "pipenv": {
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#pipenv",
+      "source": "nixpkg"
+    },
+    "python@3.11.8": {
+      "last_modified": "2024-04-01T22:53:36-04:00",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/080a4a27f206d07724b88da096e27ef63401a504#python3",
+      "source": "devbox-search",
+      "version": "3.11.8",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j0jaqv09421wydqmfawcnwvv2f32q86a-python3-3.11.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j0jaqv09421wydqmfawcnwvv2f32q86a-python3-3.11.8"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m366grr7iy3d47r7ns0p8ppx5z3ghlv6-python3-3.11.8",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/5dv2p0bwb5ni510y7mabbcmm8qrrj795-python3-3.11.8-debug"
+            }
+          ],
+          "store_path": "/nix/store/m366grr7iy3d47r7ns0p8ppx5z3ghlv6-python3-3.11.8"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9qhyp2qkb4s5zi1vahj4bjjjmdin6jnz-python3-3.11.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9qhyp2qkb4s5zi1vahj4bjjjmdin6jnz-python3-3.11.8"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gd3shnza1i50zn8zs04fa729ribr88m9-python3-3.11.8",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/imbh85vrmy96yvzwg90l0v5rb70qi3h9-python3-3.11.8-debug"
+            }
+          ],
+          "store_path": "/nix/store/gd3shnza1i50zn8zs04fa729ribr88m9-python3-3.11.8"
+        }
+      }
+    },
+    "terraform@1.7.5": {
+      "last_modified": "2024-04-11T21:05:08-04:00",
+      "resolved": "github:NixOS/nixpkgs/a0c9e3aee1000ac2bfb0e5b98c94c946a5d180a9#terraform",
+      "source": "devbox-search",
+      "version": "1.7.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rcw8kkbzglha3pl5c5vq7m0ibwg8aray-terraform-1.7.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rcw8kkbzglha3pl5c5vq7m0ibwg8aray-terraform-1.7.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hngdkd0fx0nib0ffzvi9d7am2a6il03c-terraform-1.7.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hngdkd0fx0nib0ffzvi9d7am2a6il03c-terraform-1.7.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n8ls8ay5x5d0w6yhkvgs95alp1xsahw8-terraform-1.7.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n8ls8ay5x5d0w6yhkvgs95alp1xsahw8-terraform-1.7.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hw28x4rxv69wl00lcq3xmq0zjcywyhcy-terraform-1.7.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hw28x4rxv69wl00lcq3xmq0zjcywyhcy-terraform-1.7.5"
+        }
+      }
+    }
+  }
+}
