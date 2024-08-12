@@ -4,5 +4,7 @@ nav:
   - Base Image Building: base_image_building.md
   - Development Setup: development_setup.md
   - Production Deployment: production_deployment.md
+  - Documentation Setup: documentation_setup.md
+  - Extras: extras.md
   - About: about.md
 theme: readthedocs

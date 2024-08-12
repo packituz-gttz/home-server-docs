@@ -1,6 +1,12 @@
 # Home
 
-Documentation for home-server project. This documentation helps you set up project
+**Notice: This guide assumes you are familiar with python.**
+
+Heavy use of [make](https://www.gnu.org/software/make/) is done on all the projects, it's optional but using it will
+ease setup.
+
+The purpose of this project is to provide automated setup for several self-hosted software like jellyfin, kavita,
+navidrome, etc. All the code is tested on AlmaLinux.This documentation helps you set up project
 either for development or for production use; it covers the following points:
 
 **Base image building**
@@ -19,5 +25,11 @@ either for development or for production use; it covers the following points:
 > employs Cloudflare technologies to enabled access outside local network and makes use of Terraform to
 > configure some infrastructure.
 
+**Documentation Setup**
 
+> Configuration on deploying documentation to Cloudflare Pages and the tools used for building
+> docs.
 
+**Extras**
+
+> Shows how to configure some extra tools not required for the project, but nonetheless useful.
