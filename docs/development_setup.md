@@ -1,4 +1,4 @@
-# Base Image Building
+# Development Setup
 
 Deploys scripts and services into a VirtualBox machine (AlmaLinux), for testing and development.
 
